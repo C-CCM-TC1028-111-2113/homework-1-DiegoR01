@@ -7,6 +7,12 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama `exercise
 ```python
 def main():
     #escribe tu código abajo de esta línea
+       x1= int(input("dame x1:"))
+    x2 = int(input("dame x2:"))
+    y1= int(input("dame y1:"))
+    y2= int(input("dame y2"))
+    
+    pendiente = m = (y2-y1) / (x2-x1)
     pass
 
 if __name__ == '__main__':
